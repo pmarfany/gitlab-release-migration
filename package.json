@@ -1,0 +1,14 @@
+{
+  "name": "gitlab-release-migration",
+  "version": "1.0.0",
+  "author": "Pau Marfany",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
