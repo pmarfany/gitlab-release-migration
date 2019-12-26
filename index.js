@@ -27,7 +27,7 @@ const updateTag = (tagName, description) =>
 const getFailureReason = (tagName, status) => {
     switch (status) {
         case '400': return `Tag ${tagName} request is bad`;
-        case '401': return`You are not authorized to update tag ${tagName}`;
+        case '401': return `You are not authorized to update tag ${tagName}`;
         case '404': return `Tag ${tagName} does not exist`;
         case '409': return `Tag ${tagName} already contains info`;
         default: return `Cannot update tag ${tagName}`;
